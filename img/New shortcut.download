@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Clothing Shop</h1>
+    </header>
+
+    <section>
+        <div class="product">
+            <img src="shirt.jpg" alt="Shirt">
+            <h2>Men's Shirt</h2>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="dress.jpg" alt="Dress">
+            <h2>Women's Dress</h2>
+            <p>$39.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more products as needed -->
+
+    </section>
+
+    <footer>
+        &copy; 2024 Clothing Shop. All rights reserved.
+    </footer>
+
+</body>
+</html>
